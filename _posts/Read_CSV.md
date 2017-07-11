@@ -3,7 +3,7 @@ layout: post
 title: Reading CSV Files to a dataframe using Pandas
 ---
 
-##How to use Pandas to read data into a dataframe
+## How to use Pandas to read data into a dataframe
 
 The first step of any data analysis is obtaining data and putting it into a format that can be read and analysed. 
 
