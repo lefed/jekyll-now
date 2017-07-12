@@ -8,7 +8,8 @@ layout: default
       
       <div class="blog-index">  
   {% assign post = site.posts.first %}
-  {% assign content = post.content %}
+  {% assign content = post.content | tuncatewords: 50 | strip_html %}
   {% include post_detail.html %}
+        
 </div>
 
