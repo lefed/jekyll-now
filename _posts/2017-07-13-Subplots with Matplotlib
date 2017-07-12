@@ -1,0 +1,1 @@
+Once you've started making beautiful (or at least presentable) charts with Matplotlib and Seaborn, it's likely that you will want to be able to print out not just one chart but multiple charts that could be displayed next to eachother.
