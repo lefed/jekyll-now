@@ -26,9 +26,30 @@ Using python and pandas, I cleaned the data that I collected from the SF Propert
 
 In order to test and improve my model's performance, I included features that had quality data points and may have an influence on yearly energy use such as year built, status of compliance with energy audits, and property value. I also created classifications of building types based on owner inputed classifications such as those for higher education facilities, various office types, or healthcare facilities.
 
+Possible predictors used in my model included:
+- Postal Code
+- Energy Audit Status 
+- Property Type
+- Date Next Energy Audit Due
+- Land Value
+- Structure Value
+- Basement Area
+- Building Area
+- Last Sale Price
+- Last Sale Date
+- Parcel Area
+- Year Built
+- Parcel Frontage, Depth, Shape
+- Construction Type
+- Number of Units, Stories, Rooms, Bathrooms, Bedrooms
+
 ### Testing of Models
 
+Due to the relatively small size of my dataset (approximately 1000 valid entries) and the relative variability of my target, I found that decision tree based methods such as Random Forest did not work well for finding correlations or making predictions. Linear models did not perform well (my highest model R2 score was around 0.52), however they provided insight as to the elements that were important and had performance better than randomly taking the mean of the data.
+
 ### Cross-Validation, Feature Scaling, and Coefficient Penalization
+
+
 
 ### Important Features
 
