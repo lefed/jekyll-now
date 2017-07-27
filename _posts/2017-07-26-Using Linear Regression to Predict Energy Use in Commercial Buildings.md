@@ -4,7 +4,6 @@ published: true
 
 ---
 Predicting Energy Use in Commercial Buildings in SF Using Linear Regression
----
 
 Energy use among commercial buildings is highly variable, and has a significant impact on national [GHG emissions](https://www.epa.gov/ghgemissions/global-greenhouse-gas-emissions-data) and power supply needs for the electricity grid. Predicting building energy demand is particularly important for smart control of grid assets.
 
