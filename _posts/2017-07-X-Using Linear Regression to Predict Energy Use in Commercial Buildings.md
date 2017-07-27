@@ -49,10 +49,23 @@ Due to the relatively small size of my dataset (approximately 1000 valid entries
 
 ### Cross-Validation, Feature Scaling, and Coefficient Penalization
 
-
+In order to create a model that did not over-fit my training data, I used kfolds and cross validation, standard scaling of features, and a lasso regression model where I found my optimal lasso for coefficient penalization. 
 
 ### Important Features
 
+When exploring the data and also looking at which coefficients my model weighted as important for prediction, it became evident that attributes such as year built, number of stories, land value, structure value, and energy audit status did not have any significant impact correlated to good predictions of per square foot energy use.
+
+![building_year_EUI_SF.png]({{site.baseurl}}/_posts/building_year_EUI_SF.png)
+
+The main predictor of building site EUI was classification of use. High energy use types emerged immediately such as data centers and hospitals, and low energy use types such as community centers or churches had the biggest predictive impact.
+
+![building_type_EUI_SF.png]({{site.baseurl}}/_posts/building_type_EUI_SF.png)
+
+
 ### Conclusions
 
+From this experimentation, I was able to confirm that building EUIs in San Francisco are not generally affected by the year that buildings were built, however are significantly affected by the type of use. For this data set and problem, linear regression was the best choice and came up with interpretable and predictable results.
+
 ### What I would try next
+
+Should I have more data and time on this project, I would love to include building HVAC system types to better understand end-use demand, and building design team to see if there were correlations between firms that build and design buildings and building energy performance.
