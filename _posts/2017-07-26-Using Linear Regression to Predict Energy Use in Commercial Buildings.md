@@ -50,11 +50,11 @@ In order to create a model that did not over-fit my training data, I used kfolds
 
 When exploring the data and also looking at which coefficients my model weighted as important for prediction, it became evident that attributes such as year built, number of stories, land value, structure value, and energy audit status did not have any significant impact correlated to good predictions of per square foot energy use.
 
-![building_year_EUI_SF.png]({{site.baseurl}}/_posts/building_year_EUI_SF.png)
+![building_year_EUI_SF.png]({{site.baseurl}}/images/building_year_EUI_SF.png)
 
 The main predictor of building site EUI was classification of use. High energy use types emerged immediately such as data centers and hospitals, and low energy use types such as community centers or churches had the biggest predictive impact.
 
-![building_type_EUI_SF.png]({{site.baseurl}}/_posts/building_type_EUI_SF.png)
+![building_type_EUI_SF.png]({{site.baseurl}}/images/building_type_EUI_SF.png)
 
 
 ### Conclusions
