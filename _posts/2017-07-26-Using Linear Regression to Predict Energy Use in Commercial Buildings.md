@@ -4,7 +4,7 @@ published: true
 
 Energy use among commercial buildings is highly variable, and has a significant impact on national [GHG emissions](https://www.epa.gov/ghgemissions/global-greenhouse-gas-emissions-data) and power supply needs for the electricity grid. Predicting building energy demand is particularly important for smart control of grid assets.
 
-For a recent machine learning project, I chose to try to use linear regression techniques to predict the annual per square foot energy use intensity (EUI) of commercial buildings in San Francisco.
+For a recent machine learning project, I chose to try to use linear regression techniques to predict the annual per square foot energy use intensity (EUI) of commercial buildings in San Francisco, California.
 
 Below is a brief overview of my project and conclusions.
 
