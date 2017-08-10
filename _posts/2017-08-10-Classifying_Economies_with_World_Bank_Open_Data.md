@@ -1,3 +1,8 @@
+---
+layout: post
+title: Classifying Growing and Shrinking Economies with World Bank Open Data
+---
+
 # World Bank Development Indicators - Use for Economic Predictions
 
 This post relates to my recently uploaded repo on supervised, shallow algorithm, machine learning classification modeling to predict if an economy will be growing or shrinking. 
